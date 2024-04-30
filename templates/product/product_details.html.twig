@@ -1,0 +1,11 @@
+
+{% extends 'base.html.twig' %}
+{% block body %}
+<div>
+    <h1>Product Details</h1>
+    <p>Name: {{product.name}}</p>
+    <p>Price: {{product.price|number_format(2, '.', ',')}}</p>
+    <p>Description: {{product.description}}</p>
+    
+</div
+{% endblock %}
